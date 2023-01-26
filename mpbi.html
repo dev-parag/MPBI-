@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EvenOdd Checker</title>
+  <link rel="stylesheet" type="text/css" href="mpbi.css">
+</head>
+
+<body>
+  <div id="mainDiv">
+    <h1>Number Checker</h1>
+
+    <p>
+      A simple tool to check if a number is even or odd,
+      prime or not and is a perfect square or not.
+    </p>
+
+    <form onsubmit="return false">
+      <input class="input" name="numberInput" id="inp" type="number" max="90000000000000000" placeholder="Input a number"
+        oninput="numberInfo(this.value)">
+
+      <output class="out" name="resultOutput1" id="out1">
+        0 is an even number.
+      </output>
+
+      <hr id="hr1">
+
+      <output class="out" name="resultOutput2" id="out2">
+        0 is neither prime nor a composite number.
+      </output>
+
+      <hr id="hr2">
+
+      <output class="out" name="resultOutput3" id="out3">
+        0 is a perfect square, its square root is 0
+      </output>
+    </form>
+
+    <hr id="footerHr">
+
+    <footer>
+	Made by:
+	Om R.sagar<br> 
+	Parag D.pawar<br>
+	Daksh S.pote
+	</footer>
+  </div>
+<script type="text/javascript" src="mpbi.js></script>
+</body>
+
+</html>
